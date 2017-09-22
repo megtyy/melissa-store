@@ -1,0 +1,51 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	font-family: helvetica;
+}
+h1 {
+	background-color: #F0F8FF;
+	background-attachment: fixed;
+	text-align: center;
+}
+#content {
+	overflow: auto;
+	background-color: #F0F8FF;
+}
+
+#nav, #feature, #footer {
+	margin: 1%;
+}
+
+.column1{
+	width: 40%;
+	float: left;
+	margin: 1%;
+}
+
+.column1 img {
+	width: 100%;
+}
+
+.column2{
+	width: 50%;
+	float: left;
+	margin: 1%;
+}
+
+#nav li{
+	display: inline;
+	padding: 0.5em;
+}
+
+#nav, #footer, #feature {
+	background-color: #F0FFFF;
+	padding: 0.5em 0;}
+	.article {
+		height: 20em;
+		margin-bottom: 1em;
+		background-color: #F8F8FF;
+		padding: 0.5em;
+	}
+

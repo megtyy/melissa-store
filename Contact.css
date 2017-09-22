@@ -1,0 +1,60 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	font-family: helvetica;
+}
+h1 {
+	background-color: #F0F8FF;
+	background-attachment: fixed;
+	text-align: center;
+}
+#content {
+	overflow: auto;
+	background-color: #F0F8FF;
+}
+
+#nav, #feature, #footer {
+	margin: 1%;
+}
+
+#Content{
+	width: 98%;
+	margin: 1%;
+}
+
+
+th, td {
+	padding: 7px 10px 10px 10px;
+}
+
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left;
+}
+tr.even {
+	background-color: #efefef;
+}
+tr.hover{
+	background-color: #c3e6e5;
+}
+.money{
+	text-align: right;
+}
+
+#content img {
+	width: 60px;
+	height: 60px;
+	object-fit: fill;
+}
+#nav li {
+	display: inline;
+	margin: 0 30px;
+}
+input[type="submit"] {
+	margin-left: 85%;
+}
